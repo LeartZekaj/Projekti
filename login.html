@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+
+</head>
+<body>
+    <input type="radio" checked id="toggle--login" name="toggle" class="ghost" />
+    <input type="radio" id="toggle--signup" name="toggle" class="ghost" />
+  
+  
+    <form class="form form--login framed">
+        <h2 class="text text--centered text--omega">Mire se vini ne qytetin tone<br>Ju lutem kyqeni</h2>
+
+      <input type="email" placeholder="Email" class="input input--top" />
+      <input type="password" placeholder="Password" class="input" />
+      <input type="submit" value="Log in" class="input input--submit" />
+      
+      <label for="toggle--signup" class="text text--small text--centered">Regjistrojuni</label>
+      <a href="index.html"><h2 class="text text--small text--centered">Kthehu mbrapa</h2></a>
+    </form>
+    
+    <form class="form form--signup framed">
+      <h2 class="text text--centered text--omega">Ju lutem Regjistrojuni</h2>
+  
+      <input type="email" placeholder="Email" class="input input--top" />
+      <input type="password" placeholder="Password" class="input" />
+      <input type="text" placeholder="Username" class="input" />
+      <input type="submit" value="Sign up" class="input input--submit" />
+      
+      <label for="toggle--login" class="text text--small text--centered">Kyquni</label><br>
+      <a href="index.html"><h2 class="text text--small text--centered">Kthehu mbrapa</h2></a>
+
+    </form>
+  
+    <div class="legal">
+      <a class="text text--small text--border-right" href="javascript:;">Terms</a>
+      <a class="text text--small text--border-right" href="javascript:;">Privacy</a>
+      <a class="text text--small" href="javascript:;">Password help</a>
+    </div>
+  
+    <div class="photo-cred">
+      <a class="text text--small" title="Check out their blog." href="http://cabinporn.com/post/125371354365/the-cabin-book-book-in-the-wild-21-in-the-us" target="_blank">Photo posted by <b>cabinporn</b></a>
+    </div>
+  
+    <div class="fullscreen-bg"></div>
+    <script>
+        function goBack() {
+    window.location.href = "index.html";
+  }
+      </script>
+</body>
+</html>
